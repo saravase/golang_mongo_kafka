@@ -1,8 +1,9 @@
 package handlers
 
 import (
-	"golang-mongodb-kafka/data"
 	"net/http"
+
+	"github.com/saravase/golang_mongo_kafka/data"
 )
 
 type KeyPlant struct{}

@@ -1,9 +1,10 @@
 package db
 
 import (
-	"golang_mongo_kafka/data"
 	"os"
 	"time"
+
+	"github.com/saravase/golang_mongo_kafka/data"
 
 	"gopkg.in/mgo.v2"
 )

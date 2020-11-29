@@ -2,12 +2,13 @@ package main
 
 import (
 	"context"
-	"golang_mongo_kafka/handlers"
 	"log"
 	"net/http"
 	"os"
 	"os/signal"
 	"time"
+
+	"github.com/saravase/golang_mongo_kafka/handlers"
 
 	"github.com/gorilla/mux"
 )
